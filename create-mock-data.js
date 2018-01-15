@@ -1,6 +1,6 @@
-const { models, sequelize } = require('./models');
+const {models, sequelize} = require('./models');
 
-function createData () {
+function createData() {
   let usersPromise = models.User.bulkCreate([
     {
       login: 'veged',
